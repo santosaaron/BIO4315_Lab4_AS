@@ -720,6 +720,6 @@ volcano3
 ```
 ### 5.5.4 Clustered heatmap
 # QUESTION 8
-When using Spearman correlation, our analysis was noisy as we were not only taking into account genes affected by the pathogen by those who WEREN'T as well. On the other hand, DEG clustering only takes into account the genes of interest that are directly affected by the pathogen. This allows us to better sample into treatment groups (virulent, avirulent, mock) and distinguish their gene expression patterns clearly (if there even is one - which there are in this case). For instance, mock treatments would only display baseline gene expression whereas avirulent groups would carry stronger gene expression, particularly those involved in plant defense pathways.
+When using Spearman correlation, our analysis was noisy as we were not only taking into account genes affected by the pathogen but those who WEREN'T as well. On the other hand, DEG clustering only takes into account the genes of interest that are directly affected by the pathogen. This allows us to better sample into treatment groups (virulent, avirulent, mock) and distinguish their gene expression patterns clearly (if there even is one - which there are in this case). For instance, mock treatments would only display baseline gene expression whereas avirulent groups would carry stronger gene expression, particularly those involved in plant defense pathways.
 
 
